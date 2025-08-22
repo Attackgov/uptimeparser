@@ -1,7 +1,7 @@
 # 🕒 Uptime Parser by Attack
 
 A Windows monitoring tool that checks the uptime and status of specific services and processes.  
-It detects restarts, delayed starts after system boot, and missing processes/services — updating the console in real time with colored output.
+It detects restarts, delayed starts after system boot, and missing processes/services - updating the console in real time with colored output.
 
 ---
 
