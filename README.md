@@ -4,6 +4,8 @@ A Windows monitoring tool that checks the uptime and status of specific services
 It detects restarts, delayed starts after system boot, and missing processes/services - updating the console in real time with colored output.
 
 ---
+## 📋 Patchnotes
+- **[+]** Ignores delayed services caused by late startup
 
 ## ✨ Features
 - 🔒 **Admin check** – Auto-restarts with elevation if not run as administrator  
