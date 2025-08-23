@@ -6,6 +6,7 @@ It detects restarts, delayed starts after system boot, and missing processes/ser
 ---
 ## 📋 Patchnotes
 - **[+]** Ignores delayed services caused by late startup
+- **[+]** Fixed Windows Defender detections
 
 ## ✨ Features
 - 🔒 **Admin check** – Auto-restarts with elevation if not run as administrator  
