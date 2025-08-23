@@ -20,7 +20,7 @@ It detects restarts, delayed starts after system boot, and missing processes/ser
 
 ## 📌 Monitored Targets (Default)
 - **Services:**  
-  `dps`, `dnscache`, `sysmain`, `pcasvc`, `diagtrack`, `eventlog`, `bam`  
+  `dps`, `dnscache`, `sysmain`, `pcasvc`, `diagtrack`, `eventlog`
 - **Processes:**  
   `explorer.exe`
 
